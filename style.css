@@ -186,10 +186,12 @@ button{
 .html {width: 70%; background-color: #04AA6D;}
 .css {width: 70%; background-color: #2196F3;}
 .js {width: 40%; background-color: #f44336;}
-.php {width: 60%; background-color: #808080;}
+.php {width: 50%; background-color: #808080;}
 .java {width: 50%; background-color: #06f2e6;}
-.bootstrap {width: 50%; background-color: #ff01d0;}
-.react {width: 10%; background-color: #01ff62;}
+.bootstrap {width: 60%; background-color: #ff01d0;}
+.react {width: 60%; background-color: #01ff62;}
+.node {width: 60%; background-color: #ddff01;}
+
 
 
 /* =================== Portfolio section ==================*/
