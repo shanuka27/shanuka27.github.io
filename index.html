@@ -1,188 +1,369 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>About Shanuka</title>
+    <meta charset="utf-8">
+    <title>DevFolio - Developer Portfolio Template</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta content="Free Website Template" name="keywords">
+    <meta content="Free Website Template" name="description">
 
-    <link rel="shortcut icon" href="images/portfolio.png" type="image/x-icon">
+    <!-- Favicon -->
+    <link href="img/favicon.ico" rel="icon">
 
-    <!-- Google fonts -->
-    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" 
-    href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Arvo:ital,wght@0,400;0,700;1,400;1,700&family=Inter+Tight:wght@200;500;700&family=Poppins&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;1,500&display=swap" 
-    rel="stylesheet">
+    <!-- Google Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
 
-    <!-- Bootstrap -->
-    <!-- CSS only -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" 
-    integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
-
-    <!-- JavaScript Bundle with Popper -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" 
-    integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="style.css">
-
-    <!-- Font awesom -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
-
-    <!-- Libraries Stylesheet -->
+    <!-- CSS Libraries -->
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+    <link href="lib/animate/animate.min.css" rel="stylesheet">
     <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
     <link href="lib/lightbox/css/lightbox.min.css" rel="stylesheet">
 
-    <link rel="stylesheet" href="style.css">
+    <!-- Template Stylesheet -->
+    <link href="css/style.css" rel="stylesheet">
 </head>
-<body>
 
-    <!-- header -->
-    <div class="container-fluid bg-info d-flex align-items-center mb-5 py-5" id="home" style="min-height: 100vh;">
-        <div class="container">
-            <div class="row align-items-center">
-                <div class="col-lg-6 col-md-6 text-center text-lg-left">
-                    <h3 class="text-white font-weight-normal mb-3">Hello, I'm</h3>
-                    <h1 class="display-3 text-uppercase text-primary mb-2" style="-webkit-text-stroke: 4px #ffffff;">Shanuka Yasiru</h1>
-                    <a href="https://www.youtube.com/@shanukayasiru1282" target="_blank"><button class="btn btn-primary">@shanukayasiru1282</button></a>
-                    <div class="col-lg-12 col-md-12 text-center">
-                        <a href="https://github.com/shanuka27" target="_blank"><button class="btn btn-primary">See On <strong>GitHub</strong></button></a>
-                    </div>
-                    <div class="col-lg-12 col-md-12 text-center">
-                        <a href="https://www.linkedin.com/in/shanuka-yasiru-185926216/" target="_blank"><button class="btn btn-primary">See On  <strong>Linkedin</strong> </button></a>
-                    </div>
-                    <div class="col-lg-12 col-md-12 text-center">
-                        <div class="row ">
-                            <div class="col-lg-6 col-md-6 text-center">
-                                <a href="https://www.instagram.com/__shanu27_/" target="_blank"><button class="btn btn-primary"><strong>Instagram</strong> </button></a>
-                            </div>
-                            <div class="col-lg-6 col-md-6 text-center">
-                                <a href="https://www.facebook.com/shanuka.yasiru.14" target="_blank"><button class="btn btn-primary"><strong>Facebook</strong> </button></a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-1 col-md-1 text-center text-lg-left"></div>
-                <div class="col-lg-4 col-md-5  px-3 pl-lg-0 pb-3 pb-lg-3 about-img align-items-center"><br>
-                    <img class="img-fluid w-60 rounded-circle shadow-sm" src="images/IMG_20221203_230037.jpg" alt="">
+<body data-spy="scroll" data-target=".navbar" data-offset="51">
+    <!-- Nav Bar Start -->
+    <div class="navbar navbar-expand-lg bg-light navbar-light">
+        <div class="container-fluid">
+            <a href="index.html" class="navbar-brand">Shanuka</a>
+            <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse justify-content-between" id="navbarCollapse">
+                <div class="navbar-nav ml-auto">
+                    <a href="#home" class="nav-item nav-link active">Home</a>
+                    <a href="#about" class="nav-item nav-link">About</a>
+                    <a href="#service" class="nav-item nav-link">Service</a>
+                    <!-- <a href="#experience" class="nav-item nav-link">Experience</a> -->
+                    <a href="#portfolio" class="nav-item nav-link">Portfolio</a>
+                    <a href="#contact" class="nav-item nav-link">Contact</a>
                 </div>
             </div>
         </div>
     </div>
-    <!-- header -->
+    <!-- Nav Bar End -->
 
-    <!-- skill -->
-    <div class="container-fluid py-5" id="skill">
-        <div class="container">
-            <div class="position-relative d-flex align-items-center justify-content-center">
-                <h1 class="display-1 text-uppercase text-white" style="-webkit-text-stroke: 1px #dee2e6;">Skills</h1>
-                <h1 class="position-absolute text-uppercase text-primary">My Skills</h1>
-            </div>
+
+    <!-- Hero Start -->
+    <div class="hero" id="home">
+        <div class="container-fluid">
             <div class="row align-items-center">
-                <div class="col-md-6">
-                    <div class="skill mb-4">
-                        <h6 class="font-weight-bold">HTML</h6>
-                        <div class="box-box">
-                            <div class="d-flex justify-content-between">
-                                <div class="skills html"></div>
-                            </div>
-                        </div>  
-                    </div>
-                    <div class="skill mb-4">
-                        <h6 class="font-weight-bold">CSS</h6>
-                        <div class="box-box">
-                            <div class="d-flex justify-content-between">
-                                <div class="skills css"></div>
-                            </div>
+                <div class="col-sm-12 col-md-6">
+                    <div class="hero-content">
+                        <div class="hero-text">
+                            <p>I'm</p>
+                            <h1>Shanuka Yasiru</h1>
+                            <h2></h2>
+                            <div class="typed-text">Web Designer, Web Developer, Front End Developer, Apps Designer, Apps Developer</div>
                         </div>
-                    </div>
-                    <div class="skill mb-4">
-                        <h6 class="font-weight-bold">PHP</h6>
-                        <div class="box-box">
-                            <div class="d-flex justify-content-between">
-                                <div class="skills php"></div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="skill mb-4">
-                        <h6 class="font-weight-bold">React Js</h6>
-                        <div class="box-box">
-                            <div class="d-flex justify-content-between">
-                                <div class="skills react"></div>
-                            </div>
+                        <div class="hero-btn">
+                            <a class="btn" href="#contact">Hire Me</a>
+                            <a class="btn" href="https://drive.google.com/drive/folders/1I0cpDWbACvbfjiU5YXrcaTzmY8bnbp5t?usp=sharing">Contact Me</a>
                         </div>
                     </div>
                 </div>
-                <div class="col-md-6">
-                    <div class="skill mb-4">
-                        <h6 class="font-weight-bold">JavaScript</h6>
-                        <div class="box-box">
-                            <div class="d-flex justify-content-between">
-                                <div class="skills js"></div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="skill mb-4">
-                        <h6 class="font-weight-bold">JAVA</h6>
-                        <div class="box-box">
-                            <div class="d-flex justify-content-between">
-                                <div class="skills java"></div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="skill mb-4">
-                        <h6 class="font-weight-bold">Bootstrap</h6>
-                        <div class="box-box">
-                            <div class="d-flex justify-content-between">
-                                <div class="skills bootstrap"></div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="skill mb-4">
-                        <h6 class="font-weight-bold">Node Js</h6>
-                        <div class="box-box">
-                            <div class="d-flex justify-content-between">
-                                <div class="skills node"></div>
-                            </div>
-                        </div>
+                <div class="col-sm-12 col-md-6 d-none d-md-block">
+                    <div class="hero-image">
+                        <img src="img/hero.png" alt="Hero Image">
                     </div>
                 </div>
             </div>
         </div>
     </div>
-    <!-- Skill End -->
+    <!-- Hero End -->
 
-    <!-- about -->
-    <div class="container-fluid py-5" id="about">
-        <div class="container">
-            <div class="position-relative d-flex align-items-center justify-content-center">
-                <h1 class="display-1 text-uppercase text-white" style="-webkit-text-stroke: 1px #dee2e6;">About</h1>
-                <h1 class="position-absolute text-uppercase text-primary">About Me</h1>
-            </div>
+    <!-- About Start -->
+    <div class="about wow fadeInUp" data-wow-delay="0.1s" id="about">
+        <div class="container-fluid">
             <div class="row align-items-center">
-                <div class="col-lg-7">
-                    <h3 class="mb-4">Web Developer</h3>
-                    <p>I'm still student in SLIIT. I am working for Full Stack Developer</p>
-                    <div class="row mb-3">
-                        <div class="col-sm-6 py-2"><h6>Name: <span class="text-secondary">Shanuka Yasiru</span></h6></div>
-                        <!-- <div class="col-sm-6 py-2"><h6>Birthday: <span class="text-secondary">27 Nov 2000</span></h6></div> -->
-                        <div class="col-sm-6 py-2"><h6>Degree: <span class="text-secondary">Undergraduate Student (SLIIT)</span></h6></div>
-                        <div class="col-sm-6 py-2"><h6>Experience: <span class="text-secondary"> - </span></h6></div>
-                        <!-- <div class="col-sm-6 py-2"><h6>Phone: <span class="text-secondary">+94 770656737</span></h6></div> -->
-                        <div class="col-sm-6 py-2"><h6>Email: <span class="text-secondary">hello@shanuka.me</span></h6></div>
-                        <!-- <div class="col-sm-6 py-2"><h6>Address: <span class="text-secondary">Lewangama , Ruwanwella</span></h6></div> -->
+                <div class="col-lg-6">
+                    <div class="about-img">
+                        <!-- <img src="http://via.placeholder.com/800x1000" alt="Image"> -->
+                        <img src="img/about.jpeg" alt="Image">
                     </div>
                 </div>
-                <div class="col-lg-5 pb-4 pb-lg-0">
-                    <img class="img-fluid rounded w-100" src="images/1670220166672.jpg" alt="">
+                <div class="col-lg-6">
+                    <div class="about-content">
+                        <div class="section-header text-left">
+                            <p>Learn About Me</p>
+                            <h2>Looking for an Internship</h2>
+                        </div>
+                        <div class="about-text">
+                            <p>
+                                Motivated and detail-oriented software engineering intern with a strong passion for
+                                developing innovative solutions. Currently pursuing a degree in Information Technology
+                                with a focus on software engineering. Proficient in MERN Stack, UI/UX development and
+                                Mobile Application design and development. Dedicated to continuous learning and staying up-to-date
+                                with industry trends. Excellent problem-solving skills and a collaborative team player.
+                                Seeking an internship opportunity to apply theoretical knowledge in a practical
+                                environment and contribute to the success of a dynamic software development team.
+                            </p>
+                            <div class="about-social">
+                                <a href="" target="_blank"><i class="fab fa-twitter"></i></a>
+                                <a href="https://web.facebook.com/shanuka.yasiru.14/" target="_blank"><i class="fab fa-facebook-f"></i></a>
+                                <a href="https://github.com/shanuka27" target="_blank"><i class="fab fa-github"></i></a>
+                                <a href="https://www.instagram.com/__shanu27_/" target="_blank"><i class="fab fa-instagram"></i></a>
+                                <a href="https://www.linkedin.com/in/shanuka-yasiru-188037133/" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+                            </div>
+                        </div>
+                       
+                        <!-- <div class="skills">
+                            <div class="skill-name">
+                                <p>Web Design</p>
+                                <p>85%</p>
+                            </div>
+                            <div class="progress">
+                                <div class="progress-bar" role="progressbar" aria-valuenow="85" aria-valuemin="0"
+                                    aria-valuemax="100"></div>
+                            </div>
+                            <div class="skill-name">
+                                <p>Web Development</p>
+                                <p>95%</p>
+                            </div>
+                            <div class="progress">
+                                <div class="progress-bar" role="progressbar" aria-valuenow="95" aria-valuemin="0"
+                                    aria-valuemax="100"></div>
+                            </div>
+                            <div class="skill-name">
+                                <p>Apps Design</p>
+                                <p>90%</p>
+                            </div>
+                            <div class="progress">
+                                <div class="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0"
+                                    aria-valuemax="100"></div>
+                            </div>
+                            <div class="skill-name">
+                                <p>Apps Development</p>
+                                <p>85%</p>
+                            </div>
+                            <div class="progress">
+                                <div class="progress-bar" role="progressbar" aria-valuenow="85" aria-valuemin="0"
+                                    aria-valuemax="100"></div>
+                            </div>
+                        </div> -->
+                        <!-- <a class="btn" href="">Learn More</a> -->
+                    </div>
                 </div>
             </div>
         </div>
     </div>
-    <!-- about end -->
-    
+    <!-- About End -->
 
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.0/typed.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script>
-    <script src="script.js"></script>
+    <!-- Service Start -->
+    <div class="service" id="service">
+        <div class="container">
+            <div class="section-header text-center wow zoomIn" data-wow-delay="0.1s">
+                <p>What I do</p>
+                <h2>Awesome Quality Services</h2>
+            </div>
+            <div class="row">
+                <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.0s">
+                    <div class="service-item">
+                        <div class="service-icon">
+                            <i class="fa fa-laptop"></i>
+                        </div>
+                        <div class="service-text">
+                            <h3>Web Design</h3>
+                            <p>
+                                From eye-catching layouts to seamless user experiences, we create websites that leave a lasting impression.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.2s">
+                    <div class="service-item">
+                        <div class="service-icon">
+                            <i class="fa fa-laptop-code"></i>
+                        </div>
+                        <div class="service-text">
+                            <h3>Web Development</h3>
+                            <p>
+                                From responsive design to seamless functionality, trust us to bring your digital vision to life.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.4s">
+                    <div class="service-item">
+                        <div class="service-icon">
+                            <i class="fab fa-android"></i>
+                        </div>
+                        <div class="service-text">
+                            <h3>Apps Design</h3>
+                            <p>
+                                Transform your ideas into captivating mobile experiences.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.6s">
+                    <div class="service-item">
+                        <div class="service-icon">
+                            <i class="fab fa-apple"></i>
+                        </div>
+                        <div class="service-text">
+                            <h3>Apps Development</h3>
+                            <p>
+                                Unleash the power of mobile technology with expert app development.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+   
+    <!-- Portfolio Start -->
+    <!-- <div class="portfolio" id="portfolio">
+        <div class="container">
+            <div class="section-header text-center wow zoomIn" data-wow-delay="0.1s">
+                <p>My Portfolio</p>
+                <h2>My Excellent Portfolio</h2>
+            </div>
+            <div class="row">
+                <div class="col-12">
+                    <ul id="portfolio-filter">
+                        <li data-filter="*" class="filter-active">All</li>
+                        <li data-filter=".filter-1">Web Design</li>
+                        <li data-filter=".filter-2">Mobile Apps</li>
+                        <li data-filter=".filter-3">Game Dev</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="row portfolio-container">
+                <div class="col-lg-4 col-md-6 col-sm-12 portfolio-item filter-1 wow fadeInUp" data-wow-delay="0.0s">
+                    <div class="portfolio-wrap">
+                        <div class="portfolio-img">
+                            <img src="img/portfolio-1.jpg" alt="Image">
+                        </div>
+                        <div class="portfolio-text">
+                            <h3>eCommerce Website</h3>
+                            <a class="btn" href="img/portfolio-1.jpg" data-lightbox="portfolio">+</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-12 portfolio-item filter-2 wow fadeInUp" data-wow-delay="0.2s">
+                    <div class="portfolio-wrap">
+                        <div class="portfolio-img">
+                            <img src="img/portfolio-2.jpg" alt="Image">
+                        </div>
+                        <div class="portfolio-text">
+                            <h3>Product Landing Page</h3>
+                            <a class="btn" href="img/portfolio-2.jpg" data-lightbox="portfolio">+</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-12 portfolio-item filter-3 wow fadeInUp" data-wow-delay="0.4s">
+                    <div class="portfolio-wrap">
+                        <div class="portfolio-img">
+                            <img src="img/portfolio-3.jpg" alt="Image">
+                        </div>
+                        <div class="portfolio-text">
+                            <h3>JavaScript quiz game</h3>
+                            <a class="btn" href="img/portfolio-3.jpg" data-lightbox="portfolio">+</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-12 portfolio-item filter-1 wow fadeInUp" data-wow-delay="0.6s">
+                    <div class="portfolio-wrap">
+                        <div class="portfolio-img">
+                            <img src="img/portfolio-4.jpg" alt="Image">
+                        </div>
+                        <div class="portfolio-text">
+                            <h3>JavaScript drawing</h3>
+                            <a class="btn" href="img/portfolio-4.jpg" data-lightbox="portfolio">+</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-12 portfolio-item filter-2 wow fadeInUp" data-wow-delay="0.8s">
+                    <div class="portfolio-wrap">
+                        <div class="portfolio-img">
+                            <img src="img/portfolio-5.jpg" alt="Image">
+                        </div>
+                        <div class="portfolio-text">
+                            <h3>Social Mobile Apps</h3>
+                            <a class="btn" href="img/portfolio-5.jpg" data-lightbox="portfolio">+</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-12 portfolio-item filter-3 wow fadeInUp" data-wow-delay="1s">
+                    <div class="portfolio-wrap">
+                        <div class="portfolio-img">
+                            <img src="img/portfolio-6.jpg" alt="Image">
+                        </div>
+                        <div class="portfolio-text">
+                            <h3>Company Website</h3>
+                            <a class="btn" href="img/portfolio-6.jpg" data-lightbox="portfolio">+</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div> -->
+    <!-- Portfolio End -->
+
+
+    <!-- Footer Start -->
+    <div id="contact" class="footer wow fadeIn" data-wow-delay="0.3s">
+        <div class="container-fluid">
+            <div class="container">
+                <div class="footer-info">
+                    <h2>Shanuka Yasiru Gamage</h2>
+                    <h3>Pittugala, Malabe</h3>
+                    <div class="footer-menu">
+                        <p>+94 77 065 67 37</p>
+                        <p>shanukayasiru27@gmail.com</p>
+                    </div>
+                    <div class="footer-social">
+                        <a href=""><i class="fab fa-twitter"></i></a>
+                        <a href="https://web.facebook.com/shanuka.yasiru.14/"><i class="fab fa-facebook-f"></i></a>
+                        <a href="https://www.youtube.com/@shanukayasiru1282"><i class="fab fa-youtube"></i></a>
+                        <a href="https://www.instagram.com/__shanu27_/"><i class="fab fa-instagram"></i></a>
+                        <a href="https://www.linkedin.com/in/shanuka-yasiru-188037133/"><i class="fab fa-linkedin-in"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="container copyright">
+                <p>&copy; <a href="https://shanuka.me">Shanuka</a>, All Right Reserved </p>
+            </div>
+        </div>
+    </div>
+    <!-- Footer End -->
+
+
+    <!-- Back to top button -->
+    <a href="#" class="btn back-to-top"><i class="fa fa-chevron-up"></i></a>
+
+
+    <!-- Pre Loader -->
+    <div id="loader" class="show">
+        <div class="loader"></div>
+    </div>
+
+
+    <!-- JavaScript Libraries -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.bundle.min.js"></script>
+    <script src="lib/easing/easing.min.js"></script>
+    <script src="lib/wow/wow.min.js"></script>
+    <script src="lib/waypoints/waypoints.min.js"></script>
+    <script src="lib/typed/typed.min.js"></script>
+    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+    <script src="lib/isotope/isotope.pkgd.min.js"></script>
+    <script src="lib/lightbox/js/lightbox.min.js"></script>
+
+    <!-- Contact Javascript File -->
+    <script src="mail/jqBootstrapValidation.min.js"></script>
+    <script src="mail/contact.js"></script>
+
+    <!-- Template Javascript -->
+    <script src="js/main.js"></script>
 </body>
+
 </html>
